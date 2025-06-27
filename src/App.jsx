@@ -8,7 +8,7 @@ function App() {
   const [cityfilter, setcityfilter] = useState('All jobs');
 
   useEffect(() => {
-    axios.get('http://localhost:3005/jobData')
+    axios.get('https://json-7-bdjz.onrender.com/jobData')
       .then(res => setjob(res.data))
       .catch(err => console.log(err));
   }, []);
