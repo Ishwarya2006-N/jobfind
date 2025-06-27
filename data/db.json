@@ -1,0 +1,29 @@
+{
+  "jobData": [
+    {
+      "job_title": "Frontend Developer",
+      "employer_name": "Google",
+      "job_city": "Bangalore",
+      "job_apply_link": "https://careers.google.com/jobs"
+    },
+    {
+      "job_title": "React Developer",
+      "employer_name": "Zoho",
+      "job_city": "Chennai",
+      "job_apply_link": "https://www.zoho.com/careers/"
+    },
+    {
+      "job_title": "Web Developer Intern",
+      "employer_name": "StartupX",
+      "job_city": "Remote",
+      "job_apply_link": "https://startupx.in/apply"
+    },
+    {
+      "job_title": "UI Designer",
+      "employer_name": "Freshworks",
+      "job_city": "Hyderabad",
+      "job_apply_link": "https://www.freshworks.com/careers/"
+    }
+  ]
+}
+

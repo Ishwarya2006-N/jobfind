@@ -1,0 +1,89 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.job {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #212EA0;
+}
+
+.filters {
+  margin-bottom: 30px;
+}
+
+input, select {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #212EA0;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1a1d87;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  width: 90%;
+  max-width: 500px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.company {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.apply-link {
+  text-decoration: none;
+  color: #212EA0;
+  font-weight: 500;
+}
+
+.apply-link:hover {
+  text-decoration: underline;
+  color: #1a1d87;
+}
